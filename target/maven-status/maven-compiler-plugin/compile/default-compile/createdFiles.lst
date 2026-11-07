@@ -1,0 +1,4 @@
+com\example\entity\Entity\Produit.class
+com\example\entity\DAO\ProduitDAO.class
+com\example\entity\Servlet\ProduitServlet.class
+com\example\entity\Main.class
