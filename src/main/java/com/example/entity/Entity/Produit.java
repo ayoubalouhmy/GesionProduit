@@ -18,12 +18,16 @@ public class Produit {
     private double prix;
     @Column(name = "quantiter")
     private double quantiter;
+    public Produit(){
+        //for Jpa
+    }
     public Produit(String nom , double prix , double quantiter){
         this.name =nom;
         this.prix = prix;
         this.quantiter = quantiter;
     };
     //Getters
+    public int getId(){return  id;}
     public String getName() {return name;}
     public double getPrix() { return prix;}
     public double getQuantiter(){return quantiter;}
